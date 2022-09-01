@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+body.flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-button {
+    background-color: rgb(100, 55, 222);
+    color: white;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    font-family: sans-serif;
+}
+
+.utext {
+    justify-self: baseline;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 27%;
+    bottom: 25%;
+    right: 25%;
+}
+
+nav.flex {
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-left,
+.links-right {
+    display: flex;
+    list-style: none;
+    padding: 0.5rem 2rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.text-link {}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.links-right {}
+
+.search-bar {
+    box-sizing: border-box;
+    justify-self: center;
+    max-width: 80%;
+    width: 50%;
+    height: 3rem;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-radius: 60px;
+    border: lightgray solid 2px;
+    margin: 0 10%;
+    align-self: center;
+}
+
+.search-bar:hover {}
+
+.search-button {
+    max-width: 30%;
+    padding: 0.75rem;
+    background: rgb(247, 247, 247);
+    border-radius: 7px;
+    border: 2px solid rgb(247, 247, 247);
+}
+
+.search-button:hover {
+    border-color: lightgray;
+}
+
+.search {
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttons {
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+}
+
+main.flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+form.flex,
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-col {
+    padding-top: 4rem;
+}
+
+.flex-col span {
+    align-self: flex-end;
+    color: #4285f4;
+}
+
+.imgbar {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.imgbartext {
+    width: 80%;
+    padding: 0;
+    height: 2rem;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    margin-left: 1rem;
+}
+
+.imgbartext:active,
+.imgbartext:focus,
+.imgbartext:focus-visible,
+.imgbtn:active,
+.imgbtn:focus,
+.imgbtn:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.imgbtn {
+    width: 10%;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
+    border: none;
+}
+
+.imgbtn {
+    color: #4285f4;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.mag svg {
+    fill: #4285f4;
+}
+
+.adv-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.adv-flex h1 {
+    color: rgb(213, 70, 70);
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.form-adv {
+    padding-left: 10%;
+    margin-top: 1rem;
+    border-top: rgb(237, 237, 237) 1px solid;
+    padding-top: 2rem;
+}
+
+.form-adv h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+.formform {}
+
+.formform>div {
+    clear: both;
+}
+
+.formform>div>label,
+.formform>div>input {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+
+.formform>div>input {}
+
+.formform>div>label {
+    width: 20%;
+    padding-top: 0.5rem;
+}
+
+#blab {
+    width: 50%;
+}
+
+#bbtn {
+    width: 20%;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Advanced Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <script src="logic.js" defer></script>
+</head>
+
+
+<!--Requirements-->
+
+<body class="flex">
+    <!--templating code-->
+    <header>
+        <nav class="flex">
+            <ul class="flex links-left">
+                <li>
+                    <a class="text-link" href="index.html"> <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="100px" height="auto"></a>
+                </li>
+                <li><a class="text-link" href="#"> Store</a></li>
+            </ul>
+            <ul class="flex links-right">
+                <li><a class="text-link" href="/advanced-search.html"> Advanced Search</a></li>
+                <li><a class="text-link" href="/images.html"> Images</a></li>
+                <li><a href="#"> #</a></li>
+                <li class="u-button"><a class="utext" href="#"> M</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="adv-flex">
+        <h1>Advanced Search</h1>
+        <section class="form-adv">
+
+            <h2>Find Pages with...</h2>
+            <form action="https://google.com/search" class="formform" name="f">
+                <div>
+                    <label for="as_q">all these words:</label>
+                    <input name="as_q" type="text">
+                </div>
+                <div>
+                    <label for="as_epq">this exact word or phrase:</label>
+                    <input name="as_epq" type="text">
+                </div>
+                <div>
+                    <label for="as_oq">any of these words:</label>
+                    <input name="as_oq" type="text">
+                </div>
+                <div>
+                    <label for="as_eq">none of these words:</label>
+                    <input name="as_eq" type="text">
+                </div>
+                <div>
+                    <label for="f" id="blab"></label>
+                    <input type="submit" value="Advanced Search" id="bbtn">
+
+                </div>
+            </form>
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>

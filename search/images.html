@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Google Image Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <script src="logic.js" defer></script>
+</head>
+
+
+<!--Requirements-->
+
+<body class="flex">
+    <!--templating code-->
+    <header>
+        <nav class="flex">
+            <ul class="flex links-left">
+                <li><a class="text-link" href="index.html"> Home</a></li>
+                <li><a class="text-link" href="#"> Store</a></li>
+            </ul>
+            <ul class="flex links-right">
+                <li><a class="text-link" href="/advanced-search.html"> Advanced Search</a></li>
+                <li><a class="text-link" href="/images.html"> Images</a></li>
+                <li><a href="#"> #</a></li>
+                <li class="u-button"><a class="utext" href="#"> M</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex">
+        <div class="flex flex-col">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="300px" height="auto">
+            <span>Images</span>
+        </div>
+        <div class="search flex">
+
+
+
+            <form class="flex" action="https://google.com/search">
+                <div class="search-bar imgbar">
+                    <input type="text" name="q" class="imgbartext">
+                    <input name="tbm" value="isch" type="hidden">
+
+                    <button class="imgbtn" name="btnK" type="submit" value="Image Search"><span class="mag"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-iml="1662063871244"><path   d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span></button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
